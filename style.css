@@ -1,0 +1,59 @@
+
+body {
+    box-sizing: border-box;
+    max-width: 1920px;
+    max-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    background: hsl(217, 19%, 24%);
+    font-family: 'Manrope';
+    font-weight: 800;
+}
+
+.container {
+    position: relative;
+    background: hsl(214, 31%, 29%);
+    margin: 2.5rem auto;
+    height: auto;
+    width: 350px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 1em black;
+}
+
+.container .divider{
+display: block;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.container p{
+    color:hsl(193, 38%, 86%);
+    padding: 16px;
+}
+
+
+h2{
+    padding-top: 16px;
+    font-size: 1rem;
+    color:hsl(150, 100%, 66%);
+}
+
+button {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    bottom: 0;
+    transform: translate(0, 50%);
+    cursor: pointer;
+    background: hsl(150, 100%, 66%);
+    box-shadow: 0 0 1em black;
+}
+
+
+button:hover{
+    box-shadow: 0 0 4em hsl(150, 100%, 66%);
+}
